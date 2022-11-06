@@ -1,0 +1,19 @@
+html , body { width:100%; height:100%; }
+canvas { display: block; }
+
+.navigation-home-container{
+    background-color: rgb(65, 184, 214);
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.test{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US" class="">
+    <title>Logan's Washed Up</title>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <p>This is the Home Page</p>
+        <div class="navigation-home-container">
+        <ul id="navigation-home" class="navigation">
+            <li class="navigation-item">
+                <a href="index.html">"Home"</a>
+            </li>
+            <li class="navigation-item">
+                <a href="secondary.html">"Second Page"</a>
+            </li>
+        </ul>
+        <button id="test" onclick="testFunction()">HELLO BUTTON</button>
+
+        <script>
+            function testFunction() {
+                var x = Math.floor(Math.random() * 256);
+                var y = Math.floor(Math.random() * 256);
+                var z = Math.floor(Math.random() * 256);
+                var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+                console.log(bgColor)
+
+                document.body.style.background = bgColor;
+            }
+        </script>
+
+    </div>
+    <div class="test">
+        <p class="navigation-item">About Us</p>
+        <p class="nav">TEST</p>
+    </div>
+</body>
+    
+</html>
